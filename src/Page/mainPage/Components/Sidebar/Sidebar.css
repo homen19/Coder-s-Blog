@@ -1,0 +1,39 @@
+.sideBody{
+    height: 100vh;
+    background-color: #56617D;
+    color: #FFD95B;
+}
+.brandName{
+    height: 100px;
+    /* border: 1px solid white; */
+}
+.brandName h1{
+    text-align: center;
+    padding-top: 10px;
+    font-family: Ravie;
+    font-size: 26pt;
+    
+}
+.brandName p{
+    font-size: 12px;
+    text-align: center;
+    font-family: Segoe Script;
+    position: relative;
+    top: -10px;
+
+}
+.controller{
+    width: 70%;
+    margin: auto;
+    height: 80vh;
+    /* border: 1px solid red; */
+}
+.controller ul li{
+    list-style: none;
+    padding-top: 10px;
+}
+.controller ul li a{
+    color: #FFD95B;
+    text-decoration: none;
+    font-weight: 700;
+}
