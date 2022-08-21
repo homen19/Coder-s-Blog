@@ -1,6 +1,7 @@
 import React from 'react'
 import { Header } from './Components/Header/Header';
 import { Sidebar } from './Components/Sidebar/Sidebar';
+import { ViewPart } from './Components/ViewPart/ViewPart';
 import './Main.css';
 export const Main = () => {
   return (
@@ -12,6 +13,7 @@ export const Main = () => {
             </div>
             <div className="col-md-9 main">
                 <Header />
+                <ViewPart />
             </div>
         </div>
     </div>
