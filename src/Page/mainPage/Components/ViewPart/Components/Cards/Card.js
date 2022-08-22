@@ -20,8 +20,8 @@ export const Card = (props) => {
                                 <li>Date : {props.date}</li>  
                             </ul>
                             <div className="likes d-flex">
-                                <p>Like</p>
-                               <img src={like}  />
+                                <button className='btn btn-primary'>Like
+                               <img src={like}  /></button>
                                
                             </div>
                         </div>

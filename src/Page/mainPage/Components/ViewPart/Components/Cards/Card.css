@@ -46,20 +46,19 @@
     position: relative;
     top: 5px;
     left: -30px;
-    font-size: 12px;
+    font-size: 13px;
     opacity: 0.9;
 }
 .likes{
-    width: 70px;
+    width: 100px;
     height: 40px;
     /* border: 1px solid #fff; */
     position: relative;
     top: 3px;
-    left: 295px;
+    left: 270px;
+ 
 }
-.likes p{
-    padding-top: 5px;
-}
+
 .likes img{
     width: 24px;
     height: 24px;
@@ -68,4 +67,10 @@
     top: -11px;
     left: 5px;
     
+    
+}
+.likes button{
+    width: 100px;
+    font-weight: 600;
+    font-size: 13pt;
 }

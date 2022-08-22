@@ -20,6 +20,14 @@ export const Post = () => {
             author : 'Full stacker',
             date : '21th august 2022',
             desc : 'Mongo DB can be defined as a document-oriented database system that uses the concept of NoSQL. It also provides high availability, high performance, along with automatic scaling. This open-source product was developed by the company - 10gen in October 2007, and the company also maintains it. MongoDB exists under the General Public License (GPL) as a free database'
+        },
+        {
+            id : 3,
+            title :'Express Js',
+            img : 'Images/ej.svg',
+            author : 'Homen Nath',
+            date : '22th august 2022',
+            desc : 'Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. With a myriad of HTTP utility methods and middleware at your disposal, creating a robust API is quick and easy.'
         }
     ]
     return (
