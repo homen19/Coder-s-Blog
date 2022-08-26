@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import { InsertPost } from './Page/mainPage/Components/ViewPart/Components/InsertPost/InsertPost';
 import { MyBlogs } from './Page/mainPage/Components/ViewPart/Components/MyBlogs/MyBlogs';
+import { ErroPage } from './Page/mainPage/Components/ViewPart/Components/ErrorPage/ErroPage';
 
 function App() {
  
@@ -21,6 +22,7 @@ function App() {
           <Route path='/myblogs' element={<MyBlogs /> } />
 
         </Route>
+        <Route path='*' element={<ErroPage />} />
       </Routes>
     </BrowserRouter>
     
